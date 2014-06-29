@@ -18,6 +18,7 @@
     UINavigationController *nc = [[UINavigationController alloc]initWithRootViewController:_shelfViewController];
     nc.navigationBarHidden = YES;
     self.window.backgroundColor = [UIColor blackColor];
+    self.window.backgroundColor = [UIColor redColor];
     [self.window setRootViewController:nc];
     [self.window makeKeyAndVisible];
     return YES;
