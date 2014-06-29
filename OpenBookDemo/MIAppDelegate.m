@@ -7,7 +7,6 @@
 //
 
 #import "MIAppDelegate.h"
-
 @implementation MIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +14,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    _shelfViewController = [[MIShelfViewController alloc]init];
+    UINavigationController *nc = [[UINavigationController alloc]initWithRootViewController:_shelfViewController];
+    nc.navigationBarHidden = YES;
+    self.window.backgroundColor = [UIColor blackColor];
+    [self.window setRootViewController:nc];
     [self.window makeKeyAndVisible];
     return YES;
 }

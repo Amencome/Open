@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MIShelfViewController.h"
+
 
 @interface MIAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic) MIShelfViewController *shelfViewController;
 
 @end

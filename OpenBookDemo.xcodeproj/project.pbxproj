@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E212E5DE1952BA0300508911 /* MIReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E212E5DD1952BA0300508911 /* MIReadViewController.m */; };
 		E24116541952728700FF6C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24116531952728700FF6C1D /* Foundation.framework */; };
 		E24116561952728700FF6C1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24116551952728700FF6C1D /* CoreGraphics.framework */; };
 		E24116581952728700FF6C1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24116571952728700FF6C1D /* UIKit.framework */; };
@@ -19,6 +20,12 @@
 		E241166F1952728700FF6C1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24116571952728700FF6C1D /* UIKit.framework */; };
 		E24116771952728700FF6C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E24116751952728700FF6C1D /* InfoPlist.strings */; };
 		E24116791952728700FF6C1D /* OpenBookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24116781952728700FF6C1D /* OpenBookDemoTests.m */; };
+		E2411683195272AA00FF6C1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2411682195272AA00FF6C1D /* QuartzCore.framework */; };
+		E24116861952730B00FF6C1D /* MIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24116851952730B00FF6C1D /* MIRootViewController.m */; };
+		E24116891952731B00FF6C1D /* MIShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24116881952731B00FF6C1D /* MIShelfViewController.m */; };
+		E241168E1952750600FF6C1D /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E241168D1952750600FF6C1D /* book.jpg */; };
+		E241169719528E4100FF6C1D /* MIBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = E241169619528E4100FF6C1D /* MIBookView.m */; };
+		E2E983461952FDB4003C13DE /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2E983451952FDB4003C13DE /* Entitlements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E212E5DC1952BA0300508911 /* MIReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIReadViewController.h; sourceTree = "<group>"; };
+		E212E5DD1952BA0300508911 /* MIReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIReadViewController.m; sourceTree = "<group>"; };
 		E24116501952728700FF6C1D /* OpenBookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenBookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24116531952728700FF6C1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E24116551952728700FF6C1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,15 @@
 		E24116741952728700FF6C1D /* OpenBookDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenBookDemoTests-Info.plist"; sourceTree = "<group>"; };
 		E24116761952728700FF6C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E24116781952728700FF6C1D /* OpenBookDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenBookDemoTests.m; sourceTree = "<group>"; };
+		E2411682195272AA00FF6C1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E24116841952730B00FF6C1D /* MIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRootViewController.h; sourceTree = "<group>"; };
+		E24116851952730B00FF6C1D /* MIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIRootViewController.m; sourceTree = "<group>"; };
+		E24116871952731B00FF6C1D /* MIShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIShelfViewController.h; sourceTree = "<group>"; };
+		E24116881952731B00FF6C1D /* MIShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIShelfViewController.m; sourceTree = "<group>"; };
+		E241168D1952750600FF6C1D /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = SOURCE_ROOT; };
+		E241169519528E4100FF6C1D /* MIBookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIBookView.h; sourceTree = "<group>"; };
+		E241169619528E4100FF6C1D /* MIBookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIBookView.m; sourceTree = "<group>"; };
+		E2E983451952FDB4003C13DE /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2411683195272AA00FF6C1D /* QuartzCore.framework in Frameworks */,
 				E24116561952728700FF6C1D /* CoreGraphics.framework in Frameworks */,
 				E24116581952728700FF6C1D /* UIKit.framework in Frameworks */,
 				E24116541952728700FF6C1D /* Foundation.framework in Frameworks */,
@@ -77,6 +96,7 @@
 		E24116471952728700FF6C1D = {
 			isa = PBXGroup;
 			children = (
+				E2E983451952FDB4003C13DE /* Entitlements.plist */,
 				E24116591952728700FF6C1D /* OpenBookDemo */,
 				E24116721952728700FF6C1D /* OpenBookDemoTests */,
 				E24116521952728700FF6C1D /* Frameworks */,
@@ -96,6 +116,7 @@
 		E24116521952728700FF6C1D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E2411682195272AA00FF6C1D /* QuartzCore.framework */,
 				E24116531952728700FF6C1D /* Foundation.framework */,
 				E24116551952728700FF6C1D /* CoreGraphics.framework */,
 				E24116571952728700FF6C1D /* UIKit.framework */,
@@ -107,8 +128,17 @@
 		E24116591952728700FF6C1D /* OpenBookDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E241168D1952750600FF6C1D /* book.jpg */,
 				E24116621952728700FF6C1D /* MIAppDelegate.h */,
 				E24116631952728700FF6C1D /* MIAppDelegate.m */,
+				E24116841952730B00FF6C1D /* MIRootViewController.h */,
+				E24116851952730B00FF6C1D /* MIRootViewController.m */,
+				E24116871952731B00FF6C1D /* MIShelfViewController.h */,
+				E24116881952731B00FF6C1D /* MIShelfViewController.m */,
+				E212E5DC1952BA0300508911 /* MIReadViewController.h */,
+				E212E5DD1952BA0300508911 /* MIReadViewController.m */,
+				E241169519528E4100FF6C1D /* MIBookView.h */,
+				E241169619528E4100FF6C1D /* MIBookView.m */,
 				E24116651952728700FF6C1D /* Images.xcassets */,
 				E241165A1952728700FF6C1D /* Supporting Files */,
 			);
@@ -220,7 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E983461952FDB4003C13DE /* Entitlements.plist in Resources */,
 				E241165E1952728700FF6C1D /* InfoPlist.strings in Resources */,
+				E241168E1952750600FF6C1D /* book.jpg in Resources */,
 				E24116661952728700FF6C1D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24116641952728700FF6C1D /* MIAppDelegate.m in Sources */,
+				E24116891952731B00FF6C1D /* MIShelfViewController.m in Sources */,
+				E212E5DE1952BA0300508911 /* MIReadViewController.m in Sources */,
+				E241169719528E4100FF6C1D /* MIBookView.m in Sources */,
 				E24116601952728700FF6C1D /* main.m in Sources */,
+				E24116861952730B00FF6C1D /* MIRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,9 +394,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenBookDemo/OpenBookDemo-Prefix.pch";
 				INFOPLIST_FILE = "OpenBookDemo/OpenBookDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -371,9 +409,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenBookDemo/OpenBookDemo-Prefix.pch";
 				INFOPLIST_FILE = "OpenBookDemo/OpenBookDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +479,7 @@
 				E241167E1952728700FF6C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E241167F1952728700FF6C1D /* Build configuration list for PBXNativeTarget "OpenBookDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +488,7 @@
 				E24116811952728700FF6C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
